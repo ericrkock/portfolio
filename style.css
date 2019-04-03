@@ -1,0 +1,96 @@
+/* CSS Portfolio ERK */
+/* ================= */
+
+:root {
+   --theme: #1c4d77;
+   --light: #fff;
+   --dark: #333;
+   --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+html {
+   background-color: var(--theme);
+}
+
+body {
+   margin: 30px 50px;
+   line-height: 20px;
+}
+
+/* HEADER CSS */
+h1 {
+   color: var(--light);
+   text-align: center;
+}
+
+/* PROJECT CSS */
+.projects-section {
+   display: grid;
+   margin-top: 75px;
+}
+
+.section-title {
+   color: var(--light);
+   padding-left: 20px;
+   text-transform: uppercase;
+}
+
+.sub-title {
+   color: var(--light);
+   font-size: 12px;
+   margin: 0 0 0 25px;
+}
+
+.first-row, .second-row {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-top: 20px;
+   width: 100%;
+}
+
+.project-display {
+   display:flex;
+   flex-direction: column;
+   margin: 0 10px 0 10px;
+   align-items: center;
+   text-align: center;
+   width: calc(100% / 3);
+   border: 1px solid var(--dark);
+   border-radius: 3px;
+}
+
+.project-title {
+   background-color: var(--light);
+   width: 100%;
+   padding: 15px 0;
+   text-transform: uppercase;
+   font-weight: 700;
+}
+
+.own {
+
+}
+
+.frontend {
+   display: grid;
+   margin-top: 35px;
+}
+
+.responsive {
+   display: grid;
+   margin-top: 35px;
+}
+
+/* FOOTER CSS */
+footer {
+   font-size: 14px;
+   margin-top: 25px;
+   color: var(--light);
+   text-align: center;
+}
+
+i.fab {
+   color: var(--light);
+   font-size: 20px;
+}
