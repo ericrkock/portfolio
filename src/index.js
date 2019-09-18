@@ -88,10 +88,10 @@ class Portfolio extends React.Component {
                      projectdate = "Sep 2019"
                   />
                   <Challenge 
-                     projecttitle = "Coming Soon"
+                     projecttitle = "Wikepedia Viewer"
                      projectimg = ""
-                     projectimgalt = "Coming Soon"
-                     repository = ""
+                     projectimgalt = "Wikepedia Viewer"
+                     repository = "https://github.com/ericrkock/Wikepedia-Viewer"
                      codepen= ""
                      live = ""
                      projectdate = "Coming Soon"
