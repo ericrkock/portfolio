@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import Button from "react-bootstrap/Button";
 
 import ProjectHeader from './Components/ProjectHeader';
 import Challenge from './Components/Challenge';
@@ -72,6 +71,7 @@ class Portfolio extends React.Component {
                   />
                </div>
             </div>
+            <div className="gap"></div>
             <div className="challenge-wrapper">
                <div className="challenge-title">
                   <div>Take Home Projects</div>
@@ -107,6 +107,7 @@ class Portfolio extends React.Component {
                   />
                </div>
             </div>
+            <div className="gap"></div>
             <div className="challenge-wrapper">
                <div className="challenge-title">
                   <div>Front-End Libraries</div>
