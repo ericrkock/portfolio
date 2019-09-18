@@ -37,7 +37,76 @@ class Portfolio extends React.Component {
             <div className="project-header">
                <ProjectHeader />
             </div>
-
+            <div className="challenge-wrapper">
+               <div className="challenge-title">
+                  <div>Own Challenges</div>
+                  <p>JavaScript & ReactJS projects</p>
+               </div>
+               <div className="challenges">
+                  <Challenge 
+                     projecttitle = "Character Count"
+                     projectimg = ""
+                     projectimgalt = "Character & Word Count"
+                     repository = "https://github.com/ericrkock/Character-Count"
+                     codepen= ""
+                     live = "https://ericrkock.github.io/Character-Count/"
+                     projectdate = "Aug 2019"
+                  />
+                  <Challenge 
+                     projecttitle = "Fibonacci Sequences"
+                     projectimg = ""
+                     projectimgalt = "3 Ways to calculate Fibonacci Sequences"
+                     repository = "https://github.com/ericrkock/Fibonacci-Sequences"
+                     codepen= ""
+                     live = "https://ericrkock.github.io/Fibonacci-Sequences/"
+                     projectdate = "Aug 2019"
+                  />
+                  <Challenge 
+                     projecttitle = "Coming Soon"
+                     projectimg = ""
+                     projectimgalt = "Coming Soon"
+                     repository = ""
+                     codepen= ""
+                     live = ""
+                     projectdate = "Coming Soon"
+                  />
+               </div>
+            </div>
+            <div className="challenge-wrapper">
+               <div className="challenge-title">
+                  <div>Take Home Projects</div>
+                  <p>FreeCodeCamp Project Challenges</p>
+               </div>
+               <div className="challenges">
+                  <Challenge 
+                     projecttitle = "Show Local Weather"
+                     projectimg = ""
+                     projectimgalt = "Local Weather App"
+                     repository = "https://github.com/ericrkock/Show-Local-Weather"
+                     codepen= ""
+                     live = "https://ericrkock.github.io/Show-Local-Weather/"
+                     projectdate = "Sep 2019"
+                  />
+                  <Challenge 
+                     projecttitle = "Coming Soon"
+                     projectimg = ""
+                     projectimgalt = "Coming Soon"
+                     repository = ""
+                     codepen= ""
+                     live = ""
+                     projectdate = "Coming Soon"
+                  />
+                  <Challenge 
+                     projecttitle = "Coming Soon"
+                     projectimg = ""
+                     projectimgalt = "Coming Soon"
+                     repository = ""
+                     codepen= ""
+                     live = ""
+                     projectdate = "Coming Soon"
+                  />
+               </div>
+            </div>
             <div className="challenge-wrapper">
                <div className="challenge-title">
                   <div>Front-End Libraries</div>
