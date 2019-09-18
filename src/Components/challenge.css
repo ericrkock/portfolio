@@ -1,0 +1,38 @@
+/* Challenge CSS */
+
+.challenge {
+   width: 300px;
+   margin: auto;
+}
+
+.title {
+   text-transform: uppercase;
+   font-size: 16px;
+   font-weight: 700;
+   padding: 10px 0 10px 0;
+   text-align: center;
+   background-color: #fff;
+   border: 2px solid #000;
+
+}
+
+img {
+   padding: 0 0 10px 0;
+}
+
+.buttonset {
+   margin: auto;
+}
+
+Button {
+   width: 30%;
+}
+
+.project-date {
+   margin: 10px 0 25px 0;
+   
+   padding: 10px;
+   text-align: center;
+   color: #fff;
+   border: 2px solid #000;
+}
