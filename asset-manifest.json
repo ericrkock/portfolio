@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.58eeb5a2.chunk.css",
+    "main.js": "/portfolio/static/js/main.fb7bacae.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.fb7bacae.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.36963274.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.36963274.js.map",
+    "static/css/2.266e55a5.chunk.css": "/portfolio/static/css/2.266e55a5.chunk.css",
+    "static/js/2.ee1ba50b.chunk.js": "/portfolio/static/js/2.ee1ba50b.chunk.js",
+    "static/js/2.ee1ba50b.chunk.js.map": "/portfolio/static/js/2.ee1ba50b.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.126d0dd251df0698d8a91fe2a4b4344f.js": "/portfolio/precache-manifest.126d0dd251df0698d8a91fe2a4b4344f.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/portfolio/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.58eeb5a2.chunk.css.map": "/portfolio/static/css/main.58eeb5a2.chunk.css.map",
+    "static/media/drum-machine.jpg": "/portfolio/static/media/drum-machine.0864177f.jpg",
+    "static/media/front-end-libraries-certificate.jpg": "/portfolio/static/media/front-end-libraries-certificate.a8642062.jpg",
+    "static/media/js-calculator.jpg": "/portfolio/static/media/js-calculator.0e79e28e.jpg",
+    "static/media/markdown-previewer.jpg": "/portfolio/static/media/markdown-previewer.ccbbe6c4.jpg",
+    "static/media/pomodoro-clock.jpg": "/portfolio/static/media/pomodoro-clock.7d480832.jpg",
+    "static/media/random-quote-machine.jpg": "/portfolio/static/media/random-quote-machine.3503c1a9.jpg"
+  }
+}
