@@ -1,0 +1,24 @@
+/* About Me CSS */
+
+.about-me {
+    display: flex;
+    width: 1140px;
+    margin: auto;
+    background-color: #FF5900;
+}
+
+.picture {
+    width: 200px;
+    height: 250px;
+    border: 2px solid #fff;
+    margin: 15px 0 15px 15px;
+}
+
+.bio-me {
+    margin: 15px 0 15px 15px;
+}
+
+.history {
+    margin: 10px 0 15px 15px;
+    line-height: 3px;
+}

@@ -12,13 +12,11 @@ code {
     monospace;
 }
 
-
 .challenge-wrapper {
   width: 1140px;
   margin: auto;
   background: #666;
 }
-
 
 .challenge-title {
   padding-top: 10px;

@@ -16,21 +16,7 @@ import Pomodoro from './img/pomodoro-clock.jpg';
 import Certificate from './img/front-end-libraries-certificate.jpg';
 
 class Portfolio extends React.Component {
-   constructor(props) {
-      super(props);
-      this.state = {
 
-
-         projecttitle: undefined,
-         projectimg: undefined,
-         projectimgalt: undefined,
-         repository: undefined,
-         codepen: undefined,
-         live: undefined,
-         projectdate: undefined
-
-      };
-   }
    render() {
       return (
          <div>
@@ -40,6 +26,7 @@ class Portfolio extends React.Component {
             <div className="about-me">
                <AboutMe />
             </div>
+            <div className="gap"></div>
             <div className="challenge-wrapper">
                <div className="challenge-title">
                   <div>Own Challenges</div>
