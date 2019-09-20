@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "07be6e7f46c403b418c32f5fae51cdd8",
+    "revision": "b3e53b5c94f45fa2b351bbde007ed6b2",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "1d9d4cb0539da6650169",
+    "revision": "a9d880dcc9a285933068",
     "url": "/portfolio/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "d9f9035178da125ffb47",
-    "url": "/portfolio/static/css/main.14446636.chunk.css"
+    "revision": "0d8c10fb17530ffbdaad",
+    "url": "/portfolio/static/css/main.cb11abb6.chunk.css"
   },
   {
-    "revision": "1d9d4cb0539da6650169",
-    "url": "/portfolio/static/js/2.6d956d01.chunk.js"
+    "revision": "a9d880dcc9a285933068",
+    "url": "/portfolio/static/js/2.acfb243a.chunk.js"
   },
   {
-    "revision": "d9f9035178da125ffb47",
-    "url": "/portfolio/static/js/main.a3cdc9d8.chunk.js"
+    "revision": "0d8c10fb17530ffbdaad",
+    "url": "/portfolio/static/js/main.d88d5cb4.chunk.js"
   },
   {
     "revision": "255cf37ac81f61801b31",
@@ -32,6 +32,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Eric-R-Kock.89054d4b.jpg"
   },
   {
+    "revision": "bca4ae72963b0596ef9f72805444c0ac",
+    "url": "/portfolio/static/media/character-count.bca4ae72.jpg"
+  },
+  {
     "revision": "0864177f5df19143df07269b69b86951",
     "url": "/portfolio/static/media/drum-machine.0864177f.jpg"
   },
@@ -40,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/fibonacci-sequences.0d47f288.jpg"
   },
   {
-    "revision": "a86420626bc4c0dc08864768df9ec008",
-    "url": "/portfolio/static/media/front-end-libraries-certificate.a8642062.jpg"
+    "revision": "515e37aeb483dd14140bcf4fd769762b",
+    "url": "/portfolio/static/media/front-end-libraries-certificate.515e37ae.jpg"
   },
   {
     "revision": "0e79e28e8466678e3c254f05f555be65",
@@ -56,11 +60,35 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/markdown-previewer.ccbbe6c4.jpg"
   },
   {
+    "revision": "b46637a6017d89d409e0dcb946f98d6e",
+    "url": "/portfolio/static/media/personal-portfolio.b46637a6.jpg"
+  },
+  {
     "revision": "7d480832ffa4346933549cf6170f527b",
     "url": "/portfolio/static/media/pomodoro-clock.7d480832.jpg"
   },
   {
+    "revision": "e749132b5a724aa20a2e96f1fa989555",
+    "url": "/portfolio/static/media/product-landingpage.e749132b.jpg"
+  },
+  {
     "revision": "3503c1a9b9055f20902963eeb12bcf95",
     "url": "/portfolio/static/media/random-quote-machine.3503c1a9.jpg"
+  },
+  {
+    "revision": "0dc28b6f8df8c4660996d82504997823",
+    "url": "/portfolio/static/media/responsive-web-design-certificate.0dc28b6f.jpg"
+  },
+  {
+    "revision": "defdde233d66839c78307f626faafc4f",
+    "url": "/portfolio/static/media/survey-form.defdde23.jpg"
+  },
+  {
+    "revision": "a3f1a44b24f2ee60909c66ce00dca9af",
+    "url": "/portfolio/static/media/technical-documentation.a3f1a44b.jpg"
+  },
+  {
+    "revision": "4bc26cf8e11c59b43a8b0569a18bc231",
+    "url": "/portfolio/static/media/tribute-page.4bc26cf8.jpg"
   }
 ]);
