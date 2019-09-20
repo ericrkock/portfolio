@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 import ProjectHeader from './Components/ProjectHeader';
 import AboutMe from './Components/AboutMe';
 import Challenge from './Components/Challenge';
 import ProjectFooter from './Components/ProjectFooter';
 
+import Soon from './img/Coming-Soon.jpg';
+import Fibonacci from './img/fibonacci-sequences.jpg';
+import LocalWeather from './img/local-weather.jpg';
 import QuoteMachine from './img/random-quote-machine.jpg';
 import MarkdownPreviewer from './img/markdown-previewer.jpg';
 import DrumMachine from './img/drum-machine.jpg';
@@ -35,7 +39,7 @@ class Portfolio extends React.Component {
                <div className="challenges">
                   <Challenge
                      projecttitle="Character Count"
-                     projectimg=""
+                     projectimg={Soon}
                      projectimgalt="Character & Word Count"
                      repository="https://github.com/ericrkock/Character-Count"
                      codepen=""
@@ -44,7 +48,7 @@ class Portfolio extends React.Component {
                   />
                   <Challenge
                      projecttitle="Fibonacci Sequences"
-                     projectimg=""
+                     projectimg={Fibonacci}
                      projectimgalt="3 Ways to calculate Fibonacci Sequences"
                      repository="https://github.com/ericrkock/Fibonacci-Sequences"
                      codepen=""
@@ -52,8 +56,8 @@ class Portfolio extends React.Component {
                      projectdate="Aug 2019"
                   />
                   <Challenge
-                     projecttitle="Coming Soon"
-                     projectimg=""
+                     projecttitle="New Own Challenge"
+                     projectimg={Soon}
                      projectimgalt="Coming Soon"
                      repository=""
                      codepen=""
@@ -71,7 +75,7 @@ class Portfolio extends React.Component {
                <div className="challenges">
                   <Challenge
                      projecttitle="Show Local Weather"
-                     projectimg=""
+                     projectimg={LocalWeather}
                      projectimgalt="Local Weather App"
                      repository="https://github.com/ericrkock/Show-Local-Weather"
                      codepen=""
@@ -80,7 +84,7 @@ class Portfolio extends React.Component {
                   />
                   <Challenge
                      projecttitle="Wikepedia Viewer"
-                     projectimg=""
+                     projectimg={Soon}
                      projectimgalt="Wikepedia Viewer"
                      repository="https://github.com/ericrkock/Wikepedia-Viewer"
                      codepen=""
@@ -88,8 +92,8 @@ class Portfolio extends React.Component {
                      projectdate="Coming Soon"
                   />
                   <Challenge
-                     projecttitle="Coming Soon"
-                     projectimg=""
+                     projecttitle="New Challenge"
+                     projectimg={Soon}
                      projectimgalt="Coming Soon"
                      repository=""
                      codepen=""
@@ -173,7 +177,7 @@ class Portfolio extends React.Component {
                <div className="challenges">
                   <Challenge
                      projecttitle="Tribute page"
-                     projectimg=""
+                     projectimg={Soon}
                      projectimgalt="Tribute Page"
                      repository="https://github.com/ericrkock/tribute-page"
                      codepen="https://codepen.io/EricRKock/full/XYrqZB"
@@ -182,7 +186,7 @@ class Portfolio extends React.Component {
                   />
                   <Challenge
                      projecttitle="Survey Form"
-                     projectimg=""
+                     projectimg={Soon}
                      projectimgalt="Survey Form"
                      repository=""
                      codepen="https://codepen.io/EricRKock/full/qQpZov"
@@ -191,7 +195,7 @@ class Portfolio extends React.Component {
                   />
                   <Challenge
                      projecttitle="Product Landing Page"
-                     projectimg=""
+                     projectimg={Soon}
                      projectimgalt="Product Landing Page"
                      repository=""
                      codepen="https://codepen.io/EricRKock/full/QJZrpy"
@@ -203,7 +207,7 @@ class Portfolio extends React.Component {
                <div className="challenges">
                   <Challenge
                      projecttitle="Technical Documentation Page"
-                     projectimg=""
+                     projectimg={Soon}
                      projectimgalt="Technical Documentation Page"
                      repository=""
                      codepen="https://codepen.io/EricRKock/full/QJzzae"
@@ -212,7 +216,7 @@ class Portfolio extends React.Component {
                   />
                   <Challenge
                      projecttitle="Personal Portfolio Web Page"
-                     projectimg=""
+                     projectimg={Soon}
                      projectimgalt="Personal Portfolio Web Page"
                      repository=""
                      codepen="https://codepen.io/EricRKock/full/bKbKYM"
@@ -221,7 +225,7 @@ class Portfolio extends React.Component {
                   />
                   <Challenge
                      projecttitle="Freecodecamp Certificate"
-                     projectimg=""
+                     projectimg={Soon}
                      projectimgalt="FCC Front End Libraries Certificater"
                      repository=""
                      codepen=""

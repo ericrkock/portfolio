@@ -4,12 +4,13 @@
     display: flex;
     width: 1140px;
     margin: auto;
-    background-color: #FF5900;
+    color: #fff;
+    background-color: #333;
 }
 
 .picture {
-    width: 200px;
-    height: 250px;
+    width: 204px;
+    height: 254px;
     border: 2px solid #fff;
     margin: 15px 0 15px 15px;
 }
@@ -19,6 +20,6 @@
 }
 
 .history {
-    margin: 10px 0 15px 15px;
-    line-height: 3px;
+    margin: 5px 0 25px 15px;
+    line-height: 9px;
 }

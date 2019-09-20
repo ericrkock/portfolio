@@ -5,7 +5,7 @@ class ProjectFooter extends React.Component {
    render() {
       return (
          <div className="footer">
-            <span>Presented by Eric R. Kock - April 2019 |
+            <span>Presented by Eric R. Kock - Last updates Sep. 2019 |
                <a href="https://about.me/erickock" rel="noopener noreferrer" target="_blank">{" "}About Me</a>{" "}-
                <a href="https://codepen.io/EricRKock/" rel="noopener noreferrer" target="_blank">{" "}CodePen{" "}</a>{" "}-
                <a href="https://github.com/ericrkock/portfolio" rel="noopener noreferrer" target="_blank">{" "}GitHub</a>

@@ -1,13 +1,15 @@
 import React from 'react';
 import './AboutMe.css';
 
+import Eric from '../img/Eric-R-Kock.jpg';
+
 class AboutMe extends React.Component {
     render() {
         return (
             <div>
                 <div className="about-me">
                     <div className="picture">
-
+                        <img src={Eric} alt="Front-end Developer" />
                     </div>
                     <div className="bio-me">
                         <p>About me</p>
@@ -18,6 +20,8 @@ class AboutMe extends React.Component {
                             <li>Resident: Faro - Portugal</li>
                             <li>Languages: BE/NL - EN - PT - FR - DE</li><br></br>
                             <li>Front-end developer since 2019 (Remote)</li>
+                            <li>JavaScript - React JS - Node JS</li>
+                            <li>HTML - CSS</li>
                         </ul>
                     </div>
                 </div>
