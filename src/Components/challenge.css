@@ -25,12 +25,11 @@ img {
 }
 
 Button {
-   width: 30%;
+   width: 50%;
 }
 
 .project-date {
    margin: 10px 0 25px 0;
-   
    padding: 10px;
    text-align: center;
    color: #fff;

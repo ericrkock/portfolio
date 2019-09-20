@@ -9,9 +9,8 @@ class Challenge extends React.Component {
             <p className="title">{this.props.projecttitle}</p>
             <img src={this.props.projectimg} alt={this.props.projectimgalt} />
             <div className="buttonset">
-               <Button variant="warning" href={this.props.repository} target="_blank">Github</Button>
-               <Button variant="dark" href={this.props.codepen} target="_blank">CodePen</Button>
                <Button variant="success" href={this.props.live} target="_blank">Live</Button>
+               <Button variant={this.props.variant} href={this.props.code} target="_blank">{this.props.buttonname}</Button>
             </div>
             <p className="project-date">{this.props.projectdate}</p>
          </div>

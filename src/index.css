@@ -1,3 +1,5 @@
+/* Portfolio CSS */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -5,17 +7,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(37, 37, 37) !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+  
 }
 
 .challenge-wrapper {
   width: 1140px;
   margin: auto;
-  background: #666;
+  background-color: #555;
 }
 
 .challenge-title {
