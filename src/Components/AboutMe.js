@@ -14,9 +14,7 @@ class AboutMe extends React.Component {
                 <div className="about-me">
                     <div className="picture">
                         <img src={Eric} alt="Front-end Developer" />
-                        <FontAwesomeIcon icon={faLinkedin} size="2x" />{"    "}
-                        <FontAwesomeIcon icon={faFreeCodeCamp} size="2x" />{"    "}
-                        <FontAwesomeIcon icon={faGithub} size="2x" />
+                        
                     </div>
                     <div className="bio-me">
                         <h1>About me</h1>
@@ -29,6 +27,14 @@ class AboutMe extends React.Component {
                             <li>Resident: Faro - Portugal (since 2002)</li>
                             <li>Languages: BE/NL - EN - PT - FR - DE</li>
                         </ul>
+                        <div className="icons">
+                            <a className="icon-pos" href="https://www.linkedin.com/in/ericrkock/" target="_blank">
+                                <FontAwesomeIcon icon={faLinkedin} size="2x" color="#fff" /></a>
+                            <a className="icon-pos" href="https://www.freecodecamp.org/eric-r-kock" target="_blank">
+                                <FontAwesomeIcon icon={faFreeCodeCamp} size="2x" color="#fff" /></a>
+                            <a href="https://github.com/ericrkock" target="_blank">
+                                <FontAwesomeIcon icon={faGithub} size="2x" color="#fff" /></a>
+                        </div>
                     </div>
                     <div className="bio-me-2">
                         <ul>
