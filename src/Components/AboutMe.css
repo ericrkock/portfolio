@@ -1,9 +1,14 @@
 /* About Me CSS */
 
+b {
+    color: rgb(138, 208, 255);
+}
+
 .about-me-wrapper {
     width: 1140px;
+    margin: auto;
     background-color: #333;
-    border: 1px solid rgba(138,208,255,0.55);
+    border: 2px solid rgba(138,208,255,0.55);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     box-shadow: 0px 15px 15px -15px rgba(138,208,255,0.75);
@@ -11,7 +16,6 @@
 
 .about-me {
     display: flex;
-    margin: auto;
     color: #fff;
 }
 
@@ -20,8 +24,8 @@
 }
 
 .bio-me h1 {
+    font-weight: 900;
     text-transform: uppercase;
-    text-decoration: underline;
     text-align: center;
 }
 
@@ -29,7 +33,7 @@
     width: 204px;
     height: 254px;
     border: 2px solid #fff;
-    margin: 25px 0 10px 25px;
+    margin: 25px 0 25px 25px;
 }
 
 .bio-me {
@@ -37,25 +41,22 @@
 }
 
 .bio-me-2 {
-    margin: 70px;
+    margin: 70px 0 0 15px;
 }
 
 .history {
-    margin: 5px 25px 25px 25px;
+    margin: 25px 25px 25px 25px;
     text-align: justify;
-    line-height: 20px;
+    line-height: 24px;
 }
 
-b {
-    color: rgb(138, 208, 255);
+h5 {
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 500;
 }
 
-@media(max-width: 380px) {
-    .about-me-wrapper {
-      width: 380px;
-    }
+.p-indend {
+    padding: 0 15px 0 15px;
+}
 
-    .about-me, .part-I {
-        display: block;
-    }
-  }
