@@ -1,6 +1,7 @@
 /* About Me CSS */
 
 .about-me-wrapper {
+    width: 1140px;
     background-color: #333;
     border: 1px solid rgba(138,208,255,0.55);
     border-top-right-radius: 20px;
@@ -10,7 +11,6 @@
 
 .about-me {
     display: flex;
-    width: 1140px;
     margin: auto;
     color: #fff;
 }
@@ -49,3 +49,13 @@
 b {
     color: rgb(138, 208, 255);
 }
+
+@media(max-width: 380px) {
+    .about-me-wrapper {
+      width: 380px;
+    }
+
+    .about-me, .part-I {
+        display: block;
+    }
+  }

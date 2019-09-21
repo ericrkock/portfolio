@@ -49,3 +49,9 @@ code {
 .gap {
   margin: 75px;
 }
+
+@media(max-width: 480px) {
+  .challenge-wraper {
+    width: 3800px;
+  }
+}
