@@ -12,8 +12,15 @@ import ProjectFooter from './Components/ProjectFooter';
 import Soon from './img/Coming-Soon.jpg';
 
 /* Own Challenges */
-import CharCount from './img/character-count.jpg';
-import Fibonacci from './img/fibonacci-sequences.jpg';
+let images = {
+   CharCount: './img/character-count.jpg',
+   Fibonacci: './img/fibonacci-sequences.jpg'
+}
+
+
+
+//import CharCount from './img/character-count.jpg';
+//import Fibonacci from './img/fibonacci-sequences.jpg';
 
 /* FCC - Take Home Projects */
 import LocalWeather from './img/local-weather.jpg';
