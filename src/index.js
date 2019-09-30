@@ -54,7 +54,7 @@ class Portfolio extends React.Component {
                <div className="challenges">
                   <Challenge
                      projecttitle="Character Count"
-                     projectimg={CharCount}
+                     projectimg="https://raw.githubusercontent.com/ericrkock/portfolio/master/src/img/character-count.jpg"
                      projectimgalt="Character & Word Count"
                      variant="warning"
                      code="https://github.com/ericrkock/Character-Count"
@@ -64,7 +64,7 @@ class Portfolio extends React.Component {
                   />
                   <Challenge
                      projecttitle="Fibonacci Sequences"
-                     projectimg={Fibonacci}
+                     projectimg="https://raw.githubusercontent.com/ericrkock/portfolio/master/src/img/fibonacci-sequences.jpg"
                      projectimgalt="3 Ways to calculate Fibonacci Sequences"
                      variant="warning"
                      code="https://github.com/ericrkock/Fibonacci-Sequences"
