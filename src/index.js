@@ -103,13 +103,13 @@ class Portfolio extends React.Component {
                   />
                   <Challenge
                      projecttitle="Wikepedia Viewer"
-                     projectimg={Soon}
+                     projectimg="https://raw.githubusercontent.com/ericrkock/portfolio/master/src/img/wikipedia-viewer.jpg"
                      projectimgalt="Wikepedia Viewer"
                      variant="warning"
                      code="https://github.com/ericrkock/Wikepedia-Viewer"
                      buttonname="Github"
-                     live=""
-                     projectdate="Coming Soon"
+                     live="https://ericrkock.github.io/Wikipedia-Viewer/"
+                     projectdate="Oct 2019"
                   />
                   <Challenge
                      projecttitle="New Challenge"
